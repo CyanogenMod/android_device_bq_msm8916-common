@@ -4,3 +4,5 @@ init_daemon_domain(adjust_settings);
 
 allow adjust_settings self:capability { dac_read_search dac_override };
 allow adjust_settings cache_file:dir r_dir_perms;
+
+allow adjust_settings diag_device:chr_file rw_file_perms;
