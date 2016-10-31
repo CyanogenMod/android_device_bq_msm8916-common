@@ -1,0 +1,6 @@
+allow kernel bluetooth:process setsched;
+allow kernel nfc:process setsched;
+allow kernel platform_app:process setsched;
+allow kernel radio:process setsched;
+allow kernel system_app:process setsched;
+allow kernel system_server:process setsched;
