@@ -109,6 +109,9 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 # Headers
 TARGET_SPECIFIC_HEADER_PATH := device/bq/msm8916-common/include
 
+# Healthd
+BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
+
 # Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
